@@ -1,0 +1,47 @@
+
+.card-area{
+    background-color: goldenrod;
+    width: 350px;
+    height:400px;
+    margin:10%;
+    padding:10px;
+    border-radius:10px;
+}
+.background{
+    text-align:center;
+    background: lightyellow;
+}
+.image{
+    width:200px;
+    height:200px;
+}
+.content{
+    background-color:darkgoldenrod;
+    padding:10px;
+}
+.name{
+    text-align:center;
+    font-size: 19px;
+    font-weight:lighter;
+    padding: 10px;
+}
+.type{
+    background-color:black;
+    padding:5px;
+    color:white;
+    border-radius:5px;
+    width:100px;
+    display:block;
+    text-align:center;
+    position:relative;
+
+}
+.logo{
+    text-align:center;
+    font-size:14px;
+    padding:20px;
+}
+.stats{
+
+}
+

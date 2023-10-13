@@ -1,8 +1,11 @@
-
 .card-area{
+    display:flex;
+    flex-wrap:wrap;
+}
+.card-border{
     background-color: goldenrod;
     width: 350px;
-    height:400px;
+    height:465px;
     margin:10%;
     padding:10px;
     border-radius:10px;
@@ -20,10 +23,14 @@
     padding:10px;
 }
 .name{
+    border: 2px White;
+    color: #ff6200;
     text-align:center;
     font-size: 19px;
     font-weight:lighter;
     padding: 10px;
+    background-color:White;
+    border-radius:5px;
 }
 .type{
     background-color:black;
@@ -42,6 +49,6 @@
     padding:20px;
 }
 .stats{
-
+letter-spacing:1px;
 }
 

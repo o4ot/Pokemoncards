@@ -1,18 +1,19 @@
 .card-area{
     display:flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
 }
 .card-border{
     background-color: goldenrod;
     width: 350px;
     height:465px;
-    margin:10%;
+    margin:1%;
     padding:10px;
     border-radius:10px;
 }
 .background{
     text-align:center;
     background: lightyellow;
+    position:relative;
 }
 .image{
     width:200px;
@@ -23,9 +24,10 @@
     padding:10px;
 }
 .name{
+    display:flex;
+    justify-content:center;
     border: 2px White;
     color: #ff6200;
-    text-align:center;
     font-size: 19px;
     font-weight:lighter;
     padding: 10px;
@@ -33,13 +35,13 @@
     border-radius:5px;
 }
 .type{
+    display:flex;
+    justify-content: center;
     background-color:black;
     padding:5px;
     color:white;
     border-radius:5px;
     width:100px;
-    display:block;
-    text-align:center;
     position:relative;
 
 }
@@ -51,4 +53,13 @@
 .stats{
 letter-spacing:1px;
 }
-
+.card-border:hover {
+    box-shadow: 0 8px 16px 0 rgba(247, 255, 0, 0.8)
+}
+.symbol{
+    position:absolute;
+    bottom:10;
+    right:0;
+    padding:4px 8px;
+    background-color:yellow;
+}
